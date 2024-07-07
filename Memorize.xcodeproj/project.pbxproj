@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6602E0532C33C9B80084E1BB /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6602E0522C33C9B80084E1BB /* AspectVGrid.swift */; };
+		6602E0552C33D6EA0084E1BB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6602E0542C33D6EA0084E1BB /* CardView.swift */; };
+		661F06DB2C343B6100444E76 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661F06DA2C343B6100444E76 /* Pie.swift */; };
+		661F06DD2C34446600444E76 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661F06DC2C34446600444E76 /* Cardify.swift */; };
+		664012B82C38281300C826E8 /* FlyingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664012B72C38281300C826E8 /* FlyingNumber.swift */; };
 		66687C012C27DE72000E3013 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66687C002C27DE72000E3013 /* MemoryGame.swift */; };
 		66687C032C27E03E000E3013 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66687C022C27E03E000E3013 /* EmojiMemoryGame.swift */; };
 		66C45D212C1D5B7E00532D48 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C45D202C1D5B7E00532D48 /* MemorizeApp.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6602E0522C33C9B80084E1BB /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
+		6602E0542C33D6EA0084E1BB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		661F06DA2C343B6100444E76 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		661F06DC2C34446600444E76 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		664012B72C38281300C826E8 /* FlyingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingNumber.swift; sourceTree = "<group>"; };
 		66687C002C27DE72000E3013 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		66687C022C27E03E000E3013 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		66C45D1D2C1D5B7E00532D48 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +69,11 @@
 				66687C022C27E03E000E3013 /* EmojiMemoryGame.swift */,
 				66C45D202C1D5B7E00532D48 /* MemorizeApp.swift */,
 				66C45D222C1D5B7E00532D48 /* EmojiMemoryGameView.swift */,
+				664012B72C38281300C826E8 /* FlyingNumber.swift */,
+				6602E0542C33D6EA0084E1BB /* CardView.swift */,
+				661F06DA2C343B6100444E76 /* Pie.swift */,
+				6602E0522C33C9B80084E1BB /* AspectVGrid.swift */,
+				661F06DC2C34446600444E76 /* Cardify.swift */,
 				66C45D242C1D5B8000532D48 /* Assets.xcassets */,
 				66C45D262C1D5B8000532D48 /* Preview Content */,
 			);
@@ -145,7 +160,12 @@
 			files = (
 				66C45D232C1D5B7E00532D48 /* EmojiMemoryGameView.swift in Sources */,
 				66687C032C27E03E000E3013 /* EmojiMemoryGame.swift in Sources */,
+				664012B82C38281300C826E8 /* FlyingNumber.swift in Sources */,
+				661F06DD2C34446600444E76 /* Cardify.swift in Sources */,
 				66C45D212C1D5B7E00532D48 /* MemorizeApp.swift in Sources */,
+				6602E0532C33C9B80084E1BB /* AspectVGrid.swift in Sources */,
+				661F06DB2C343B6100444E76 /* Pie.swift in Sources */,
+				6602E0552C33D6EA0084E1BB /* CardView.swift in Sources */,
 				66687C012C27DE72000E3013 /* MemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SX8RAS27B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
@@ -313,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SX8RAS27B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
